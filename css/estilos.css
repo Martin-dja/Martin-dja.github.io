@@ -1,0 +1,65 @@
+*
+{
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.container
+{
+  background: #494ca2;
+}
+.header
+{
+  background: #f3f9fb;
+}
+  .header-imagenFigure
+  {
+    background: #87c0cd;
+  }
+  .header-menu
+  {
+    background: #87c0cd;
+  }
+
+.hero
+{
+  background: #f3f9fb;
+}
+#hero-h1
+{
+  background: #87c0cd;
+}
+.hero-imagenFigure{
+  background: #87c0cd;
+}
+
+.portfolio
+{
+  background: #f3f9fb;
+}
+#portfolio-h2
+{
+  background: #87c0cd;
+}
+.portfolio-article
+{
+  background: #87c0cd;
+}
+
+.events
+{
+  background: #f3f9fb;
+}
+.events-article
+{
+  background: #87c0cd;
+}
+
+.contacts
+{
+  background: #f3f9fb;
+}
+#contacts-p
+{
+  background: #fff;
+}
