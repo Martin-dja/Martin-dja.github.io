@@ -20,7 +20,7 @@ h1
   line-height: 1.5em;
   letter-spacing: -0.2px;
   color: white;
-  margin:
+  margin:0;
 }
 h1 strong
 {
@@ -43,8 +43,8 @@ figure
   background-color: #000;
   color: white;
   display: flex;
-  /* align-items: center; */
-  height: 90px;
+  align-items: center;
+  height: 70px;
   justify-content: space-between;
 }
 .header figure
@@ -77,11 +77,12 @@ figure
 .hero
 {
   height: 300px;
-  background-image: url("../imagenes/mrtn-hero.png");
-  background-color: #1b2127;
+  background-image: url("../imagenes/mrtn-article.png");
+  background-color: #000;
   background-size: 500px 300px;
   background-repeat: no-repeat;
   background-position: right;
+  display: flex;
 }
 
 .portfolio
@@ -89,7 +90,7 @@ figure
   background: #fafafa;
 }
   .project{
-     border: 1px solid gray;
+    border: 1px solid gray;
     border-radius: 10px;
     box-shadow: 0 0 10px gray;
     margin: 10px;
@@ -106,3 +107,12 @@ figure
     {
       width: 500px;
     }
+
+.footer
+{
+  color: white;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
