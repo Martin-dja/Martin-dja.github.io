@@ -6,7 +6,7 @@
 }
 body{
   margin: 0;
-  /* font-family: "Source Sans Pro",sans-serif; */
+  font-family: "Source Sans Pro",sans-serif;
 }
 h1,h2,h3,h4,h5,h6
 {
@@ -27,6 +27,15 @@ h1 strong
   color: #026fff;
 }
 
+h2
+{
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro",sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 35px;
+}
 ol, ul
 {
 margin: 0;
@@ -88,25 +97,59 @@ figure
 .portfolio
 {
   background: #fafafa;
+  padding: 20px;
 }
   .project{
     border: 1px solid gray;
     border-radius: 10px;
     box-shadow: 0 0 10px gray;
-    margin: 10px;
+    /* margin: 10px; */
     margin-bottom: 15px;
     padding: 20px;
     background: white;
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
   }
     .project-details
     {
 
     }
+    .project-title{
+      font-size: 30px;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    .project-subtitle,
+    .project-date,
+    .project-url
+    {
+      margin: 10px 0;
+    }
+    /* .project-date
+    {
+      margin: 10px 0;
+    } */
 
+    .project-description
+    {
+      font-size: 20px;
+    }
+    .project strong
+    {
+      font-family: "Fjalla One", sans-serif;
+    }
     .project-imageContainer
     {
       width: 500px;
+      display: flex;
+      justify-content: center;
     }
+    .project-image
+    {
+      width: 500px;
+    }
+
 
 .footer
 {
