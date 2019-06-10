@@ -1,65 +1,69 @@
 *
 {
-  margin: 10px;
+  /* margin: 10px;
   padding: 10px;
-  box-sizing: border-box;
+  box-sizing: border-box; */
 }
-.container
+body{
+  /* font-family: "Source Sans Pro",sans-serif; */
+}
+h1,h2,h3,h4,h5,h6
 {
-  background: #494ca2;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 400;
+  font-style:
 }
-.header
+
+h1
+{ font-size: 40px;
+  line-height: 1.5em;
+  letter-spacing: -0.2px;
+  color: white;
+  margin:
+}
+h1 strong
 {
-  background: #f3f9fb;
+  color: #026fff;
 }
-  .header-imagenFigure
+.header{
+  background-color: #000;
+  color: white;
+}
+  .header a
   {
-    background: #87c0cd;
-  }
-  .header-menu
-  {
-    background: #87c0cd;
+    color: white;
+    text-decoration: none;
   }
 
 .hero
 {
-  background: #f3f9fb;
-}
-#hero-h1
-{
-  background: #87c0cd;
-}
-.hero-imagenFigure{
-  background: #87c0cd;
+  height: 300px;
+  background-image: url("../imagenes/mrtn-hero.png");
+  background-color: #1b2127;
+  background-size: 500px 300px;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .portfolio
 {
-  background: #f3f9fb;
+  background: #fafafa;
 }
-#portfolio-h2
-{
-  background: #87c0cd;
-}
-.portfolio-article
-{
-  background: #87c0cd;
-}
+  .project{
+    /* border: 1px solid gray;*/
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+  }
+    .project-details
+    {
 
-.events
-{
-  background: #f3f9fb;
-}
-.events-article
-{
-  background: #87c0cd;
-}
+    }
 
-.contacts
-{
-  background: #f3f9fb;
-}
-#contacts-p
-{
-  background: #fff;
-}
+    .project-imageContainer
+    {
+      width: 500px;
+    }
