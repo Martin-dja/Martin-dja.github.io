@@ -51,7 +51,7 @@ h1 strong
   background: #fafafa;
 }
   .project{
-    /* border: 1px solid gray;*/
+     border: 1px solid gray;
     border-radius: 10px;
     box-shadow: 0 0 10px gray;
     margin: 10px;
