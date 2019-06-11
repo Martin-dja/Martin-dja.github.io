@@ -55,14 +55,19 @@ figure
   align-items: center;
   height: 70px;
   justify-content: space-between;
+  padding: 10px;
 }
 .header figure
 {
-  margin: 0px 0px 0px 20px;
+  margin: 0px;
+  /* margin-left: 20px; */
+  height: 70px;
 }
 .header-menu
 {
   height: inherit;
+  /* margin-right: 20px */
+
 }
 
 .header ol{
@@ -86,18 +91,29 @@ figure
 .hero
 {
   height: 300px;
-  background-image: url("../imagenes/mrtn-article.png");
+  /* background-image: url("../imagenes/mrtn-article.png"); */
   background-color: #000;
-  background-size: 500px 300px;
+  /* background-size: 500px 300px;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right; */
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.hero-imagenFigure
+{
+  width:500px;
+  height:300px;
+}
+.hero-imagen{
+  object-fit: over;
 }
 
 .portfolio
 {
   background: #fafafa;
-  padding: 20px;
+  padding: 10px;
 }
   .project{
     border: 1px solid gray;
@@ -147,10 +163,107 @@ figure
     }
     .project-image
     {
-      width: 500px;
+      width: inherit;
     }
+.event-list
+{
+  background: #fafafa;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.events-listTitle
+{
+  /* margin-left: 20px; */
+}
+.event
+{
+  /* border: 1px solid gray; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  margin: 0 0 20px;
+  width: 800px;
+  overflow: hidden;
+  background: #f4fbff;
+}
+.event-imageContainer
+{
+  width: inherit;
+}
+.event-image
+{
+  width: inherit;
+  object-fit: cover;
+}
 
+.event-details
+{
+  margin: 20px 40px;
+  margin-top: -50px;
+  background-color: white;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+.event-description
+{
+  text-align: left;
+}
 
+.event-url
+{
+  color: #056fff;
+  border: 1px solid;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.contact
+{
+  background-color: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-email input
+{
+  border: 1px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 20px 10px 25px;
+
+}
+.form-email button
+{
+  display: block;
+  margin-top: 10px;
+  background: transparent;
+  color: white;
+  padding: 10px 0px;
+  border-radius: 5spx;
+  width: 100px;
+  margin-top: 10px;
+
+  /* margin: 10px auto 0; */
+
+}
+.social
+{
+  /* border: solid red; */
+}
+.social-link
+{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  border: 1px solid white;
+  background-image: url("../imagenes/mrtn-logo.jpg");
+  background-size: 50px 50px;
+}
 .footer
 {
   color: white;
@@ -159,3 +272,22 @@ figure
   align-items: center;
   justify-content: space-between;
 }
+
+.container
+{
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: 0 auto;
+  display: inherit;
+  align-items: inherit;
+  justify-content: space-between;
+  height: inherit;
+  flex-wrap: inherit;
+  /* padding: 20px; */
+}
+/* .container.event-container
+{
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  padding: -20px;
+} */
